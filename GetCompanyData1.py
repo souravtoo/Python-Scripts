@@ -16,6 +16,7 @@ from bs4 import BeautifulSoup
 
 f = open('GetCompanyDataOutput.csv','w')
 f.write("Comp,Sales,OthOpInc,OpProfit,EBITDA,Interest,Dep,Tax,NetP,EPS"+"\n")
+#This line is added just to check Git connectivity
 
 urlfile = open('GetURLLinksOutput-extract.txt', 'r')
 url_list = list(urlfile)
